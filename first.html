@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+<head>
+
+<title> VC </title>
+
+</head>
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+ob_start();
+passthru('/usr/bin/python2.7 /home/ankitha/cns/project/overlap.py');
+$output = ob_get_clean(); 
+<!--
+<form action="phpf.php">
+  <input type="submit" value="click on me!">
+</form>
+<script src="vc.js"></script>-->
+
+</body>
+</html>

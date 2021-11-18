@@ -1,0 +1,21 @@
+{
+  "name": "ankitha",
+  "version": "1.0.0",
+  "description": "project_a",
+  "main": "require.js",
+  "scripts": {
+    "test": "pr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "myfirstrepo"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "ankitha",
+  "license": "ISC",
+  "dependencies": {
+    "pngjs": "^3.3.3"
+  }
+}
